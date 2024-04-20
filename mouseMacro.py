@@ -21,6 +21,7 @@ class MouseController:
     def toggle_button(self):
         if self.button_pressed:
             self.release_button()
+            sys.exit()
         else:
             self.press_button()
 
